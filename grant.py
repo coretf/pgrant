@@ -2,6 +2,7 @@
 
 import logging
 import requests
+from multiprocessing import Queue # cx_freeze is dumb
 from datetime import datetime
 from tkinter import *
 from tkinter import ttk
@@ -96,7 +97,7 @@ def About():
     window = Toplevel(root)  
     window.title( "About PGrant")
     window.geometry( "400x250")
-    version = Label(window, text ="v. 0.3", foreground="grey", font=(4))
+    version = Label(window, text ="v. 0.4", foreground="grey", font=(4))
     version.pack(padx=6, pady = 2, side=TOP)
     aboutt = Label(window, text ="This tool is designed to distribute promotional TF2 items, parsing multiple SteamID64s from a file, one per line. Be sure to keep your console output visible so you can keep track of the progress.", wraplength=180, font=(6))
     aboutt.pack(padx=6, pady = 2, side=LEFT)
@@ -131,7 +132,7 @@ def Reset():
 
 # Window properties    
     
-root.title( "PGrant 0.3")
+root.title( "PGrant 0.4")
 root.geometry( "350x400")
 
 
