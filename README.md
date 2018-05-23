@@ -39,7 +39,7 @@ The console window will show how many SteamIDs it detected in the file.
 
 Once the file was loaded, you'll be able to press the "Grant" button. Once pressed, the window may become non-responsive, this is normal. 
 
-Take a look at the console window, it will you the progress of the distrubution process.
+Take a look at the console window, it will show you the progress of the distrubution process.
 You'll see something that looks like this:
 
 ```
