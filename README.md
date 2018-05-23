@@ -1,6 +1,6 @@
 
 # pgrant
-A GUI wrapper for a TF2 promotional distribution script.
+A GUI wrapper for a TF2 promotional [distribution script](https://gist.github.com/BenjaminSchaaf/e65c9dbccf32d49c23d97d94b61b95da), originally made by Benjamin Schaaf.
 
 ## Installation
 
