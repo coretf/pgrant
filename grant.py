@@ -95,11 +95,13 @@ def OpenFile():
 def About():
     window = Toplevel(root)  
     window.title( "About PGrant")
-    window.geometry( "200x300")
-    version = Label(window, text ="v. 0.2", foreground="grey", font=(4))
+    window.geometry( "400x250")
+    version = Label(window, text ="v. 0.3", foreground="grey", font=(4))
     version.pack(padx=6, pady = 2, side=TOP)
-    aboutt = Label(window, text ="This tool is designed to distribute promotional TF2 items, parsing multiple SteamID64s from a file, one per line. Be sure to keep your console output visible so you can keep track of the progress.", wraplength=180, font=(8))
+    aboutt = Label(window, text ="This tool is designed to distribute promotional TF2 items, parsing multiple SteamID64s from a file, one per line. Be sure to keep your console output visible so you can keep track of the progress.", wraplength=180, font=(6))
     aboutt.pack(padx=6, pady = 2, side=LEFT)
+    aboutp = Label(window, text ="The software  is licensed under the Apache License 2.0. A major part of the original code was generously provided by Benjamin Schaaf.", wraplength=180, font=(6))
+    aboutp.pack(padx=6, pady = 6, side=LEFT)
 
 def BtnCheck(event):
     if (len(apitoken.get()) != 0)&(len(promoid.get()) != 0)&fileopened:
@@ -129,7 +131,7 @@ def Reset():
 
 # Window properties    
     
-root.title( "PGrant 0.1")
+root.title( "PGrant 0.3")
 root.geometry( "350x400")
 
 
