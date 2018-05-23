@@ -11,7 +11,7 @@ For Windows, download any Python version that is greater than 3.4 [here](https:/
 
 ## Running 
 
-For Linux, download the latest release, put it anywhere on your disk. Open up a terminal in the directory you have this program in, and use `python3 grant.py` to run the program.
+For Linux, download the ]latest release](https://github.com/mkrl/pgrant/releases), put it anywhere on your disk. Open up a terminal in the directory you have this program in, and use `python3 grant.py` to run the program.
 
 For Windows, if you have done everything right, you can either follow the Linux way or double-click on the program and it should start.
 
