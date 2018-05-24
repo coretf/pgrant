@@ -21,7 +21,7 @@ os.environ['TCL_LIBRARY'] = r'C:\Users\root\AppData\Local\Programs\Python\Python
 os.environ['TK_LIBRARY'] = r'C:\Users\root\AppData\Local\Programs\Python\Python36-32\tcl\tk8.6'
 
 setup(name='PGrant',
-      version='0.3',
+      version='0.4',
       description='Valve promo distribution tool',
       executables=executables,
       options = dict(build_exe = buildOptions)

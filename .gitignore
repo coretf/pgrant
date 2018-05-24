@@ -1,4 +1,7 @@
 log.txt
+build/*
+tcl86t.dll
+tk86t.dll
 
 # Windows image file caches
 Thumbs.db
